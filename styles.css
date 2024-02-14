@@ -1,0 +1,55 @@
+body {
+    font-family: 'Dancing Script', cursive, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: url('sassswithflowers.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+h1 {
+    color: #ff023d;
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 25px;
+    color: #e9e9e9;
+    line-height: 2;
+}
+
+.heart-image {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+#message-input {
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #2c3e50;
+}
+
+#send-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Added styles for moving hearts */
+.heart {
+    position: absolute;
+    display: inline-block;
+    font-size: 40px;
+    color: #e74c3c;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
